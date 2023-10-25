@@ -103,11 +103,67 @@ btn3.addEventListener("click",()=>{
      if(box2.value.trim() == ""){
         document.getElementById('box2').innerHTML="Enter some text for About"
      }
-    if(box2.value.trim() === ""&&box1.value.trim() === ""){
-        document.getElementById('box1').innerHTML="Enter some text for Title"  
-        document.getElementById('box2').innerHTML="Enter some text for About"
+    if(box2.value.trim() == ""){
+        document.getElementById('box3').innerHTML="Enter some text for Title"  
+        
     }
+    if(box2.value.trim() == ""){
+        document.getElementById('box3').innerHTML="Enter some text for Title"  
+        
+    }
+    if(box3.value.trim() == ""){
+        document.getElementById('box3').innerHTML="Enter some text for Title"  
+        
+    }
+    if(locat.value.trim() == ""){
+        document.getElementById('locat').innerHTML="Enter some text for Title"  
+        
+    }
+    if(remote.value.trim() == ""){
+        document.getElementById('remote').innerHTML="Enter some text for Title"  
+        
+    }
+    if(ex.value.trim() == ""){
+        document.getElementById('ex').innerHTML="Enter some text for Title"  
+        
+    }
+    if(ex1.value.trim() == ""){
+        document.getElementById('ex1').innerHTML="Enter some text for Title"  
+        
+    }
+    if(sal.value.trim() == ""){
+        document.getElementById('sal').innerHTML="Enter some text for Title"  
+        
+    }
+    if(sal1.value.trim() == ""){
+        document.getElementById('sal1').innerHTML="Enter some text for Title"  
+        
+    }
+    if(total.value.trim() == ""){
+        document.getElementById('total').innerHTML="Enter some text for Title"  
+        
+    }
+    if(check.value.trim() == ""){
+        document.getElementById('check').innerHTML="Enter some text for Title"  
+        
+    }
+    if(check1.value.trim() == ""){
+        document.getElementById('check1').innerHTML="Enter some text for Title"  
+        
+    }
+    
 
+
+
+
+
+
+
+
+
+
+    
+      
 //     let fullcontainer=document.createElement('div')
 //     fullcontainer.id="full-container"
 //    full.appendChild(fullcontainer)
