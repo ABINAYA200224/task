@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#job{
+    font-size: 30px;
+    
+    
+}
+#button{
+    width:180px;
+    height:37px;
+    text-align: center;
+    
+    outline:none;
+    background-color: rgb(97, 19, 76);
+    border-radius: 3px;
+    color:azure;
+    font-size: 20px;
+}
+#form{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+#header{
+    display:flex;
+    justify-content: space-between;
+
+}
+#modal{
+    left:0%;
+    width:100%;
+    background-color: rgba(7, 7, 7, 0.89);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    ALIGN-ITEMS: center;
+    height: 100vh;
+    margin:auto;
+    
+}
+#modalstart{
+    display: none;
+}
+#all-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#location-remote{
+    display:flex;
+    gap:10px;
+}
+
+#popup{
+    width: 488px;
+    height: 540px;
+    background-color:white;
+    border-radius: 10px;
+}
+#first-content{
+    display:flex;
+    flex-direction: column;
+}
+#container{
+    display:flex;
+    gap:5px;
+}
+#second-content{
+    margin-left:53px;
+}
+#aplly-now{
+    margin-left:53px; 
+}
+#full-container{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    background-color:#F4F4F4;
+    width:460px;
+    padding:20px;
+    border-radius: 5px;
+}
+#chennai{
+    color:#7A7A7A;
+}
+#btn{
+    width: 100px;
+    height: 26px;
+    background-color:  #1597E4;
+    border:none;
+    border-radius: 5px;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+#check{
+    font-size: 12px;
+    
+    display:flex;
+    gap:5px;
+}
+#check1{
+    font-size: 12px;
+    
+    display:flex;
+    gap:5px;
+}
+#checkbox{
+    display:flex;
+    gap:30px;
+}
+
+#box1{
+    font-size: 12px;
+    padding: 5px;
+    width: 425px;
+    /* height: 18px; */
+}
+#box2{
+    font-size: 12px;
+    padding: 5px;
+    width: 425px;
+    /* height: 18px; */
+}
+#box3{
+    font-size: 12px;
+    padding: 5px;
+    width: 425px;
+    /* height: 18px; */
+}
+#all-inputs{
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+#locat{
+width:200px;
+/* height: 18px; */
+font-size: 12px;
+padding: 5px;
+
+}
+
+#remote{
+    width:200px;
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 5px;
+}
+#ex{
+    width:200px;
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 5px;
+}
+#ex1{
+    width:200px;
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 5px;
+}
+#experience{
+    display:flex;
+    gap:10px;
+    
+
+}
+#salary{
+    display:flex;
+    gap:10px;
+
+}
+#sal{
+    width:200px;
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 5px;
+}
+#sal1{
+    width:200px;
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 5px;
+}
+#total{
+    width:425px;
+    /* height: 18px; */
+    font-size: 12px;
+    padding: 5px;
+}
+#btn3{
+    width: 73px;
+    height: 23px;
+    background-color: #1597E4;
+    border-radius: 3px;
+    border: none;
+}
+#save{
+    display:flex;
+    justify-content: end;
+    align-self: flex-end;
+}
+#gap{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+#section{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap:10px;
+margin-top: 42px;
+}
+#full{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
