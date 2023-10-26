@@ -56,17 +56,20 @@
                         
                      <div id="gap">
                         <p>job title</p>
-                        <input type="text" id="box1" placeholder="ex.UX UI Designer">
+                        <input type="text" id="box1" placeholder="ex.UX UI Designer" required>
+                        <p class="error"></p>
                      </div>
 
                      <div id="gap">
                         <p>company name</p>
                         <input type="text" id="box2" placeholder="ex.Google">
+                        <p class="error" id="error_companyName"></p>
                      </div>
 
                      <div id="gap">
                         <p>industry</p>
                         <input type="text" id="box3" placeholder="ex.Information Technologe">
+                        <p class="error"></p>
                      </div>
 
                      <div  id="location-remote">
@@ -81,6 +84,7 @@
                         <div id="gap">
                             <p>remote type</p>
                            <input type="text" id="remote" placeholder="ex.In Office">
+                           <p class="error"></p>
                         </div>
                         
                     </div>
@@ -91,9 +95,11 @@
                         <div id="experience">
                             <div>
                                 <input type="text" id="ex" placeholder="Minimum">
+                                <p class="error"></p>
                             </div>
                             <div>
                                 <input type="text" id="ex1" placeholder="Maxcimum">
+                                <p class="error"></p>
                             </div>
                             
                         </div>
@@ -104,9 +110,11 @@
                         <div id="salary">
                             <div>
                                 <input type="text" id="sal" placeholder="Minimum">
+                                <p class="error"></p>
                             </div>
                             <div>
                                 <input type="text" id="sal1" placeholder="Maxcimum">
+                                <p class="error"></p>
                             </div>
                             
                         </div>
@@ -116,15 +124,18 @@
                         <p>total emplayee</p>
 
                         <input type="text" id="total" placeholder="ex.100">
+                        <p class="error"></p>
                     </div>
 
                     <div id="checkbox">
                         <div id="check">
                             <input type="checkbox">
+                            <p class="error"></p>
                             <p>Quick apply</p>
                         </div>
                        <div id="check1">
                          <input type="checkbox">
+                         <p class="error"></p>
                          <p>External apply</p>
                        </div>
                        

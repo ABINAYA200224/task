@@ -2,18 +2,19 @@ let button=document.getElementById('button')
 let btn3=document.getElementById('btn3')
 let full=document.getElementById('full')
 
-// let box1=document.getElementById('box1')
-// let box2=document.getElementById('box2')
-// let box3=document.getElementById('box3')
-// let locat=document.getElementById('locat')
-// let remote=document.getElementById('remote')
-// let ex=document.getElementById('ex')
-// let ex1=document.getElementById('ex1')
-// let sal=document.getElementById('sal')
-// let sal1=document.getElementById('sal1')
-// let total=document.getElementById('total')
-// let checkbox=document.getElementById('check')
-// let checkbox1=document.getElementById('check1')
+let box1=document.getElementById('box1')
+let box2=document.getElementById('box2')
+let box3=document.getElementById('box3')
+let locat=document.getElementById('locat')
+let remote=document.getElementById('remote')
+let ex=document.getElementById('ex')
+let ex1=document.getElementById('ex1')
+let sal=document.getElementById('sal')
+let sal1=document.getElementById('sal1')
+let total=document.getElementById('total')
+let checkbox=document.getElementById('check')
+let checkbox1=document.getElementById('check1')
+
 
 
 // let details={
@@ -42,18 +43,103 @@ button.addEventListener("click", () => {
 
     // save button
 btn3.addEventListener("click",()=>{
-    let box1=document.getElementById('box1')
-    let box2=document.getElementById('box2')
-    let box3=document.getElementById('box3')
-    let locat=document.getElementById('locat')
-    let remote=document.getElementById('remote')
-    let ex=document.getElementById('ex')
-    let ex1=document.getElementById('ex1')
-    let sal=document.getElementById('sal')
-    let sal1=document.getElementById('sal1')
-    let total=document.getElementById('total')
-    let check=document.getElementById('check')
-    let check1=document.getElementById('check1')
+    // let box1=document.getElementById('box1')
+    // let box2=document.getElementById('box2')
+    // let box3=document.getElementById('box3')
+    // let locat=document.getElementById('locat')
+    // let remote=document.getElementById('remote')
+    // let ex=document.getElementById('ex')
+    // let ex1=document.getElementById('ex1')
+    // let sal=document.getElementById('sal')
+    // let sal1=document.getElementById('sal1')
+    // let total=document.getElementById('total')
+    // let check=document.getElementById('check')
+    // let check1=document.getElementById('check1')
+
+    
+    // // VALIDATIONS
+    if ( box1.value =="") {
+        document.querySelector('.error').innerHTML="Enter some text for text"  
+        // print("Valid age")
+    }
+
+
+     if(box2.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text for About"
+     }
+
+
+    if(box2.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text for Title"  
+        
+    }
+
+
+    if(box2.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(box3.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(locat.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(remote.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(ex.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text "  
+        
+    }
+
+
+    if(ex1.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text "  
+        
+    }
+
+
+    if(sal.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text "  
+        
+    }
+
+
+    if(sal1.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(total.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(check.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
+
+    if(check1.value == ""){
+        document.querySelector('.error').innerHTML="Enter some text"  
+        
+    }
+
     
     
     let details={
@@ -71,7 +157,7 @@ btn3.addEventListener("click",()=>{
         title:check1.value
     
     }
-    console.log(details)
+    // console.log(details)
 
 
 
@@ -94,63 +180,8 @@ btn3.addEventListener("click",()=>{
 
 
 
+    
 
-    // // VALIDATIONS
-    if ( box1.value.trim() ==="") {
-        document.getElementById('box1').innerHTML="Enter some text for text"  
-        
-    }
-     if(box2.value.trim() == ""){
-        document.getElementById('box2').innerHTML="Enter some text for About"
-     }
-    if(box2.value.trim() == ""){
-        document.getElementById('box3').innerHTML="Enter some text for Title"  
-        
-    }
-    if(box2.value.trim() == ""){
-        document.getElementById('box3').innerHTML="Enter some text for Title"  
-        
-    }
-    if(box3.value.trim() == ""){
-        document.getElementById('box3').innerHTML="Enter some text for Title"  
-        
-    }
-    if(locat.value.trim() == ""){
-        document.getElementById('locat').innerHTML="Enter some text for Title"  
-        
-    }
-    if(remote.value.trim() == ""){
-        document.getElementById('remote').innerHTML="Enter some text for Title"  
-        
-    }
-    if(ex.value.trim() == ""){
-        document.getElementById('ex').innerHTML="Enter some text for Title"  
-        
-    }
-    if(ex1.value.trim() == ""){
-        document.getElementById('ex1').innerHTML="Enter some text for Title"  
-        
-    }
-    if(sal.value.trim() == ""){
-        document.getElementById('sal').innerHTML="Enter some text for Title"  
-        
-    }
-    if(sal1.value.trim() == ""){
-        document.getElementById('sal1').innerHTML="Enter some text for Title"  
-        
-    }
-    if(total.value.trim() == ""){
-        document.getElementById('total').innerHTML="Enter some text for Title"  
-        
-    }
-    if(check.value.trim() == ""){
-        document.getElementById('check').innerHTML="Enter some text for Title"  
-        
-    }
-    if(check1.value.trim() == ""){
-        document.getElementById('check1').innerHTML="Enter some text for Title"  
-        
-    }
     
 
 
