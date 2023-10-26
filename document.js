@@ -14,6 +14,7 @@ let sal1=document.getElementById('sal1')
 let total=document.getElementById('total')
 let checkbox=document.getElementById('check')
 let checkbox1=document.getElementById('check1')
+let radio2=document.getElementById('radio2')
 
 
 
@@ -56,89 +57,98 @@ btn3.addEventListener("click",()=>{
     // let check=document.getElementById('check')
     // let check1=document.getElementById('check1')
 
+    let boolean  = false;
     
     // // VALIDATIONS
     if ( box1.value =="") {
-        document.querySelector('.error').innerHTML="Enter some text for text"  
-        // print("Valid age")
+        document.getElementById('error_title').innerHTML="Enter some text"  
+        boolean = true;
     }
 
 
      if(box2.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text for About"
+        document.getElementById('error_companyName').innerHTML="Enter some text "
+        boolean = true;
      }
 
 
-    if(box2.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text for Title"  
+     if(box2.value == ""){
+        document.getElementById('industry').innerHTML="Enter some text for Title"  
+        boolean = true;
         
     }
 
 
-    if(box2.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
-        
-    }
+     if(box2.value == ""){
+         document.getElementById('location').innerHTML="Enter some text"  
+         boolean = true;
+     }
 
 
     if(box3.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
-        
+        document.getElementById('remoyte-type').innerHTML="Enter some text"  
+        boolean = true;
     }
 
 
     if(locat.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
-        
+        document.getElementById('experience-minimum').innerHTML="Enter some text"  
+        boolean = true;
     }
 
 
     if(remote.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
-        
+        document.getElementById('experience-maxcimum').innerHTML="Enter some text"  
+        boolean = true;
     }
 
 
     if(ex.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text "  
-        
+        document.getElementById('minimum-salary').innerHTML="Enter some text "  
+        boolean = true;
     }
 
 
     if(ex1.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text "  
-        
+        document.getElementById('maxcimum-salary').innerHTML="Enter some text "  
+        boolean = true;
     }
 
 
     if(sal.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text "  
-        
+        document.getElementById('total-employe').innerHTML="Enter some text "  
+        boolean = true;
     }
 
 
-    if(sal1.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
-        
+    if(!sal1.checked && !total.checked ){
+        document.getElementById('radio2').innerHTML=" one btn click"  
+        boolean = true;
+    }else{
+        document.getElementById('radio2').innerHTML=" " 
     }
 
 
-    if(total.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
-        
+    // if(total.value == ""){
+    //     document.getElementById('radio2').innerHTML=" click one btn"  
+    //     boolean = true;
+    // }
+
+    if(boolean == false){
+        modalstart.style.display="none";
+
     }
 
-
-    if(check.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
+    // if(check.value == ""){
+    //     document.querySelector('.error').innerHTML="Enter some text"  
         
-    }
+    // }
 
 
-    if(check1.value == ""){
-        document.querySelector('.error').innerHTML="Enter some text"  
+    // if(check1.value == ""){
+    //     document.querySelector('.error').innerHTML="Enter some text"  
         
-    }
+    // }
 
     
     
@@ -171,8 +181,7 @@ btn3.addEventListener("click",()=>{
      .then(response => response.json())
      .then(json => console.log(json));
     
-    modalstart.style.display="none";
-});
+   });
 
 
 

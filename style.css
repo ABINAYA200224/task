@@ -5,6 +5,7 @@
 body{
     margin-left: 10px;
     margin-right: 10px;
+    background:#E6E6E6;
 }
 #job{
     font-size: 30px;
@@ -62,7 +63,7 @@ body{
 
 #popup{
     width: 488px;
-    height: 540px;
+    height: 650px;
     background-color:white;
     border-radius: 10px;
 }
@@ -101,7 +102,7 @@ body{
 }
 .full{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 40px
 }
 #check{
@@ -116,11 +117,15 @@ body{
     display:flex;
     gap:5px;
 }
-#checkbox{
+#check2{
     display:flex;
     gap:30px;
 }
-
+#checkbox{
+    display:flex;
+    flex-direction: column;
+    gap:2px;
+}
 #box1{
     font-size: 12px;
     padding: 5px;
@@ -143,7 +148,7 @@ body{
     padding:20px;
     display:flex;
     flex-direction: column;
-    gap:10px;
+    gap:2px;
 }
 #locat{
 width:200px;
@@ -229,4 +234,7 @@ margin-top: 42px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+.error{
+    color:red;
 }
