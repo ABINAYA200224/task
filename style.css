@@ -101,7 +101,8 @@ body{
     border-radius: 5px;
 }
 .full{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     /* flex-direction: column; */
     gap: 40px
 }
@@ -231,10 +232,16 @@ gap:10px;
 margin-top: 42px;
 }
 #full{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto;
     gap: 30px;
 }
 .error{
     color:red;
+}
+.validation-start{
+    display:flex;
+}
+#add-details{
+    display: flex;
 }
